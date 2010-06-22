@@ -1,0 +1,11 @@
+A generic linked list implementation written in C++. Creates a library so that it may be included with any program.
+A test file (main.cpp) is provided in order to validate the correctness of the library.
+
+To Install:
+make
+make install
+
+To Uninstall:
+make uninstall
+make clean
+

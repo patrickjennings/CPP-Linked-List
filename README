@@ -1,11 +1,30 @@
-A generic linked list implementation written in C++. Creates a library so that it may be included with any program.
-A test file (main.cpp) is provided in order to validate the correctness of the library.
+Name:		CPP Linked List
+Version:	0.0.2
+Date:		08/08/2010
+Author:		Sycadellicman (Patrick Jennings)
+Contact:	<sycadellicman@gmail.com>
+Source:		http://github.com/Sycadellicman/CPP-Linked-List
 
-To Install:
-make
-make install
+----------------------------------------------------------------
 
-To Uninstall:
-make uninstall
-make clean
+--Description--
+A generic linked list implementation written in C++. Could be
+used for a stack, queue, or to easily sort comparable objects.
+The package creates a library so that it may be included with
+any program. A test file (main.cpp) is provided in order to
+validate the correctness of the library and give an example of
+its use.
+
+--Install--
+The package makes use of the Automake utilities. Installation
+is straightforward and can be performed by executing the
+following commands:
+1) ./configure
+2) make
+3) make install
+
+--Uninstall--
+Removing the package is just as easy and can be done by
+executing the command:
+1) make uninstall
 

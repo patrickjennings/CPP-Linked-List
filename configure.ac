@@ -3,4 +3,5 @@ AM_INIT_AUTOMAKE
 AM_PROG_LIBTOOL
 AC_PROG_INSTALL
 AC_PROG_CXX
+LT_INIT([disable-static])
 AC_OUTPUT(Makefile src/Makefile)

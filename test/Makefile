@@ -1,5 +1,5 @@
 CC 	=	g++
-CFLAGS 	=	-static -g -Wall -pedantic -W -O2
+CFLAGS 	=	-g -Wall -pedantic -W -O2
 LIBS	=	-llinkedlist
 OBJECT	=	lltest
 

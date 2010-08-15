@@ -176,3 +176,5 @@ void LinkedList::printLL() {
 	}
 }
 
+void liblinkedlist() {}
+

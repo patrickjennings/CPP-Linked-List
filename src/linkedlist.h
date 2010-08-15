@@ -26,5 +26,12 @@ class LinkedList {
 		unsigned int size;
 };
 
+/* Needed for automakes AC_CHECK_LIB.
+ * See http://nerdland.net/2009/07/detecting-c-libraries-with-autotools
+ */
+extern "C" {
+	void liblinkedlist();
+}
+
 #endif
 
